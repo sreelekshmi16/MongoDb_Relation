@@ -21,15 +21,15 @@ function validateGenre(genre) {
 }
 
 
-// async function createGenre(){
-//     const genre = new Genre({
-//         name:'Action'
+async function createGenre(){
+    const genre = new Genre({
+        name:'Action'
        
-//     });
+    });
     
-// const result = await genre.save()
-//     console.log(result);
-// }
+const result = await genre.save()
+    console.log(result);
+}
 // createGenre()
 
 exports.genreSchema = genreSchema;
